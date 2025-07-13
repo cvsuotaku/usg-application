@@ -20,5 +20,5 @@ export const routes: Routes = [
     { path: 'employment-history', component: PersonalData },
     { path: 'periods-of-unemployment', component: PeriodsOfUnemployment },
     { path: 'residence-history', component: ResidenceHistory },
-    { path: 'agreement', component: Agreement },
+    { path: 'agreement', component: Agreement }
 ];
