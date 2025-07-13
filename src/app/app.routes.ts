@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
 import { PersonalData } from './personal-data/personal-data';
+import { Agreement } from './agreement/agreement';
+import { Certifications } from './certifications/certifications';
+import { EducationHistory } from './education-history/education-history';
 import { EmploymentDesired } from './employment-desired/employment-desired';
 import { MilitaryServiceRecord } from './military-service-record/military-service-record';
-import { EducationHistory } from './education-history/education-history';
-import { Certifications } from './certifications/certifications';
 import { MotorVehicleRecord } from './motor-vehicle-record/motor-vehicle-record';
 import { PeriodsOfUnemployment } from './periods-of-unemployment/periods-of-unemployment';
 import { ResidenceHistory } from './residence-history/residence-history';
-import { Agreement } from './agreement/agreement';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'personal-data', pathMatch: 'full' },

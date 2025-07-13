@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-military-service-record',
   imports: [],
   templateUrl: './military-service-record.html',
-  styleUrl: './military-service-record.scss'
+  styleUrl: './military-service-record.css'
 })
 export class MilitaryServiceRecord {
 

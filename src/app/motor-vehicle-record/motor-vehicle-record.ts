@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-motor-vehicle-record',
   imports: [],
   templateUrl: './motor-vehicle-record.html',
-  styleUrl: './motor-vehicle-record.scss'
+  styleUrl: './motor-vehicle-record.css'
 })
 export class MotorVehicleRecord {
 

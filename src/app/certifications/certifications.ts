@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-certifications',
   imports: [],
   templateUrl: './certifications.html',
-  styleUrl: './certifications.scss'
+  styleUrl: './certifications.css'
 })
 export class Certifications {
 

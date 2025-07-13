@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-periods-of-unemployment',
   imports: [],
   templateUrl: './periods-of-unemployment.html',
-  styleUrl: './periods-of-unemployment.scss'
+  styleUrl: './periods-of-unemployment.css'
 })
 export class PeriodsOfUnemployment {
 

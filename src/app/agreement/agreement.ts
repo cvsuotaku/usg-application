@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-agreement',
   imports: [],
   templateUrl: './agreement.html',
-  styleUrl: './agreement.scss'
+  styleUrl: './agreement.css'
 })
 export class Agreement {
 

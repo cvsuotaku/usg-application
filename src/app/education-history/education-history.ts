@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-education-history',
   imports: [],
   templateUrl: './education-history.html',
-  styleUrl: './education-history.scss'
+  styleUrl: './education-history.css'
 })
 export class EducationHistory {
 

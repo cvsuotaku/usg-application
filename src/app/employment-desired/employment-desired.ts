@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-employment-desired',
   imports: [],
   templateUrl: './employment-desired.html',
-  styleUrl: './employment-desired.scss'
+  styleUrl: './employment-desired.css'
 })
 export class EmploymentDesired {
 
