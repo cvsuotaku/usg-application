@@ -9,7 +9,6 @@ import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 })
 export class PersonalData {
   applicationForm: FormGroup;
-  sameAsPresent = false;
 
   constructor(private fb: FormBuilder) {
     this.applicationForm = this.fb.group({
@@ -29,7 +28,7 @@ export class PersonalData {
   }
 
    onSameAsPresentToggle() {
-    if (this.sameAsPresent) {
+    if (this.applicationForm.get('sameAsPresent')?.value) {
       this.applicationForm.patchValue({
         mailingAddress: this.applicationForm.value.presentAddress,
         mailingCity: this.applicationForm.value.presentCity,
